@@ -1,0 +1,10 @@
+@import url(./__columns/footer__columns.css);
+
+.footer {
+  margin: 0;
+  color: #fff;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+}
