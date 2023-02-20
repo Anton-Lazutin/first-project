@@ -1,4 +1,7 @@
 @import url(./__column_content_copyright/footer__column_content_copyright.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-links/footer__column-links.css);
+
 
 .footer__column {
   display: flex;
@@ -6,29 +9,10 @@
   margin: 0;
 }
 
-.footer__column-heading {
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
 
-.footer__column-links {
-  list-style: none;
-  padding: 20px 0 16px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-}
 
-.footer__column-link {
-  color: #fff;
-}
 
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  padding-right: 10px;
-}
+
+
+
+

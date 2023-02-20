@@ -13,3 +13,10 @@
   position: relative;
   overflow: hidden;
 }
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 4;
+}
