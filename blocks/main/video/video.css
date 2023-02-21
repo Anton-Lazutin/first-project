@@ -1,3 +1,5 @@
+@import url(./__iframes/video__iframes.css);
+
 .video {
   margin: 100px auto -60px;
   display: flex;
@@ -7,8 +9,3 @@
   color: #000;
 }
 
-.iframes {
-  margin: 50px auto 0;
-  display: flex;
-  gap: 20px;
-}
