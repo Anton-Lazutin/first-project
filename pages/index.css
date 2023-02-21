@@ -23,8 +23,8 @@
 }
 
 .link:hover {
- opacity: 0.6;
- transition: opacity 0.4s linear ;
+  opacity: 0.6;
+  transition: opacity 0.4s linear;
 }
 
 .logo {
