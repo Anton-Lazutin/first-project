@@ -1,8 +1,3 @@
-@import url(./__title/header__title.css);
-@import url(./__subtitle/header__subtitle.css);
-@import url(./__main-illustration/header__main-illustration.css);
-@import url(./__square-pic/header__square-pic.css);
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -12,6 +7,11 @@
   background-color: #f2f2f2;
   position: relative;
   overflow: hidden;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
