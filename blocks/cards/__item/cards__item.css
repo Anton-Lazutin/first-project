@@ -1,0 +1,13 @@
+.cards__item {
+  list-style: none;
+  width: 240px;
+  margin: 0;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cards__item:nth-of-type(3) {
+  padding-right: 0;
+}

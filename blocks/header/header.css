@@ -8,15 +8,3 @@
   position: relative;
   overflow: hidden;
 }
-
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 4;
-}

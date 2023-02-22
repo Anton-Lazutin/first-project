@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
   <link rel="stylesheet" href="./pages/index.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Научиться учиться</title>
@@ -13,14 +12,14 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="лого_яндекс_практикум" />
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="лого яндекс практикум" />
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
-        использовать в своей жизни? <a class="link" href="#">Узнать &rarr;</a>
+        использовать в своей жизни? <a class="link header__link" href="#">Узнать &rarr;</a>
       </p>
-      <img class="header__main-illustration" src="./images/two_again.png" alt="картина_опять_двойка" />
-      <div class="header__square-pic"></div>
+      <img class="header__main-illustration" src="./images/two_again.png" alt="картина опять двойка" />
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -52,7 +51,7 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" alt="книга-в-руках" src="./images/cards-attention.png" />
+            <img class="cards__image" alt="книга в руках" src="./images/cards-attention.png" />
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное и
@@ -76,7 +75,7 @@
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" alt="человек-рядом-со-скамейкой"
+            <img class="cards__image" alt="человек рядом со скамейкой"
               src="./images/cards-question.png" />
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">
@@ -85,7 +84,7 @@
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" alt="рука-держит-книги" src="./images/cards-competence.png" />
+            <img class="cards__image" alt="рука держит книги" src="./images/cards-competence.png" />
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">
               Повторите про себя, запишите, расскажите другу: вам только
@@ -98,9 +97,9 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe id="ytplayer" width="515" height="316" class="video__iframe"
+          <iframe id="ytplayer" class="video__iframe"
             src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe id="ytplayer2" width="515" height="316" class="video__iframe"
+          <iframe id="ytplayer2" class="video__iframe"
             src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
@@ -176,13 +175,13 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <h3 class="khan__title">Весь мир — школа</h3>
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
             смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" alt="Книга" src="./images/khan-book.jpg">
@@ -259,23 +258,23 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
-          <a href="#" class="resources__logo"><img class="link resources__link" alt="" src="./images/resources-arzamas.svg"></a>
-          <a href="#" class="resources__logo"><img class="link resources__link" alt="" src="./images/resources-n1.svg"></a>
-          <a href="#" class="resources__logo"><img class="link resources__link" alt="" src="./images/resources-strelka.svg"></a>
-          <a href="#" class="resources__logo"><img class="link resources__link" alt="" src="./images/resources-polka.svg"></a>
+          <a href="#" class="resources__logo"><img class="link resources__link" alt="лого арзамас" src="./images/resources-arzamas.svg"></a>
+          <a href="#" class="resources__logo"><img class="link resources__link" alt="лого n1" src="./images/resources-n1.svg"></a>
+          <a href="#" class="resources__logo"><img class="link resources__link" alt="лого стрелка" src="./images/resources-strelka.svg"></a>
+          <a href="#" class="resources__logo"><img class="link resources__link" alt="лого полка" src="./images/resources-polka.svg"></a>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="белое_лого_яндекс_практикум" class="logo logo_place_footer" />
+          <img src="./images/logo_place_footer.svg" alt="белое лого яндекс практикум" class="logo logo_place_footer" />
           <p class="footer__author">&copy; Антон Лазутин</p>
         </div>
         <div class="footer__column footer__column_content_info">
@@ -290,13 +289,13 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <nav class="footer__column-links">
             <a href="#" class="link footer__column-link"><img src="./images/youtube_color_white.svg"
-                class="footer__social-icon" alt="лого_ютуб" />
+                class="footer__social-icon" alt="лого ютуб" />
               YouTube</a>
             <a href="#" class="link footer__column-link"><img src="./images/vk_color_white.svg"
-                class="footer__social-icon" alt="лого_вк" />
+                class="footer__social-icon" alt="лого вк" />
               VКонтакте</a>
             <a href="#" class="link footer__column-link"><img src="./images/tiktok_color_white.svg"
-                class="footer__social-icon" alt="лого_тикток" />
+                class="footer__social-icon" alt="лого тикток" />
               TiKTok</a>
           </nav>
         </div>
