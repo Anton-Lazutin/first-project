@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 
+@import url(../blocks/page/page.css);
+
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -79,9 +81,3 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
