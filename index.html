@@ -22,7 +22,7 @@
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <section class="description">
+      <section class="description" aria-label="Блок со статьей">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -96,12 +96,16 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe id="ytplayer" class="video__iframe"
+        <ul class="video__iframes">
+          <li>
+            <iframe id="ytplayer" class="video__iframe"
             src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe id="ytplayer2" class="video__iframe"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </div>
+          </li>
+          <li>
+            <iframe id="ytplayer2" class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns">
